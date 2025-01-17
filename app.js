@@ -39,9 +39,7 @@ function sortearAmigo() {
         li.textContent = "El amigo secreto sorteado es: " + amigoSorteado;
         resultado.appendChild(li);
 
-        setTimeout(() => {
-            preguntarReiniciar()
-        }, 0);
+        setTimeout(preguntarReiniciar, 0);
 
     } else {
         alert("Para realizar el sorteo se necesitan amigos.");
