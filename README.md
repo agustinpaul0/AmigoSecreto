@@ -2,8 +2,6 @@
 
 ¡Bienvenido a **Amigo Secreto**! Una aplicación interactiva para agregar amigos y seleccionar uno al azar como el amigo secreto.
 
----
-
 ## Descripción
 
 Esta aplicación permite:
@@ -13,7 +11,6 @@ Esta aplicación permite:
 3. Validar las entradas: Si el campo de texto está vacío, muestra una alerta pidiendo un nombre válido.
 4. Realizar un sorteo aleatorio al presionar el botón "Sortear amigo". Esto seleccionará un nombre de la lista y mostrará únicamente al amigo secreto en la pantalla.
 
----
 
 ## Instrucciones de uso
 
@@ -26,16 +23,12 @@ Esta aplicación permite:
 3. **Sorteo**:  
    Presiona el botón "Sortear amigo" para seleccionar un amigo secreto de la lista. Una vez realizado el sorteo, la lista cambiará para mostrar solo el nombre del amigo secreto.
 
----
-
 ## Funcionalidades principales
 
 - **Agregar nombres**: Permite al usuario añadir nombres válidos a la lista.
 - **Validación**: Impide que se agreguen entradas vacías o inválidas.
 - **Sorteo aleatorio**: Selecciona un nombre al azar de la lista.
 - **Interfaz dinámica**: Cambia la representación visual de la lista tras el sorteo.
-
----
 
 ## Tecnologías utilizadas
 
