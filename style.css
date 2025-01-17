@@ -160,3 +160,22 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Estilo para la scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Ancho de la scrollbar */
+    height: 12px; /* Alto de la scrollbar (si es horizontal) */
+}
+
+/* Estilo para la parte de la scrollbar que se mueve */
+::-webkit-scrollbar-thumb {
+    background-color: #6fa3f8; /* Color blanco azulado */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 3px solid #fff; /* Borde blanco alrededor */
+}
+
+/* Estilo para la parte de la scrollbar que no se mueve */
+::-webkit-scrollbar-track {
+    background-color: #f0f8ff; /* Color de fondo blanco azulado claro */
+    border-radius: 10px; /* Bordes redondeados */
+}
